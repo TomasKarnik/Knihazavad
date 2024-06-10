@@ -1,6 +1,6 @@
 This is a simple ticket management system web application. It allows users to submit tickets for maintenance issues, track their status, and manage them efficiently.
 
-Made this as fast solution for bussines instead of shared exel spredsheet.  :)))
+Made this as fast solution for bussines instead of fucking exel spredsheet and physical notepad.  :)))
 
 ## Features
 - Submit new tickets with details such as place, issue description, and reported by.
