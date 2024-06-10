@@ -12,6 +12,7 @@
     <ul>
         <li><a href="zavady.php">Kniha závad</a></li>
         <li><a href="add_ticket.html">Nahlaš závadu</a></li>
+        <li><a href="navod.html">Návod</a></li>
     </ul>
 </nav>
 <h1>Kniha závad</h1>
