@@ -1,20 +1,32 @@
 
 TODO:
-čeština
-visuals
 nasadit testovací verzi na server
 nastavit companywide dns
 
 
-edit_ticket.php 
-    zakázat změnu reciving date
-    visuals
-        čeština
-
-
-
 Návod k použití:
-najeď na zavady.skalican.cz
-Klikni na nahlaš závadu
-Sepiš co je potřeba
-měj trpělivost než se k tomu dostanem.
+
+Zadání závady:
+1.Do internetového prohlížeče zadejde zavady.skalican.cz
+2.Klikněte "Nahlaš závadu"
+3.Vyplňtě všechna pole a klikněte "nahlásit" 
+4.Váš ticket byl úspěšně zadán do systému
+
+Zobrazení statusu závady:
+1.Aktualní status vašeho ticketu najdete v "kniha závad"
+2. Zde si můžete zobrazit poznámku od údržby, či zjistit kdo se vašemu ticketu věnuje
+
+
+Návod pro údržbu:
+1. Na stránce "kniha závad" vybereme ticket který chceme řešit
+2.Pomocí tlačítka "edit" upravíme ticket
+3.Do pole "Zodpovědný údržbář" zadáme jméno (Povinné pole)
+4. V poli "Začalo se řešit:" zadáme datum kdy se ticket začal řešit
+
+V průběhu řešení
+5. V průběhu můžeme do "Poznámka od údržby:" zadávat poznámku. Např.:Objednán servis,atd.
+
+Po dokončení
+6. Po dokončení zadáme do pole "Problém vyřešen:" datum ukončení a do poznámky můžeme něco přidat
+7. Zaškrneme "Hotovo" a klikneme submit
+Ticket zezelená a je považovaný za ukončený
