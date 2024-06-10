@@ -38,7 +38,7 @@
                 <label for="place">Místo závady:</label>
                 <input type="text" id="place" name="place" value="<?php echo $row["Place"]; ?>" required><br><br>
                 
-                <label for="issue_description">IPopis závady:</label><br>
+                <label for="issue_description">Popis závady:</label><br>
                 <textarea id="issue_description" name="issue_description" rows="4" cols="50" required><?php echo $row["IssueDescription"]; ?></textarea><br><br>
                 
                 <label for="maintenance_person">Zodpovědný údržbář:</label>
