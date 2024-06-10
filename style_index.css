@@ -1,0 +1,44 @@
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+.logo img {
+    display: block;
+    margin: 0 auto;
+    max-width: 500px; /* Adjust the width as needed */
+    height: auto;
+}
+
+.page-name h1 {
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    padding: 5px 10px;
+    border: 1px solid #333;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: #333;
+    color: #fff;
+}
+.patamat img {
+    display: block;
+    margin: 0 auto;
+    max-width: 500px; /* Adjust the width as needed */
+    height: auto;
+}

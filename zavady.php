@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tickets</title>
+    <title>Kniha závad</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -18,15 +18,15 @@
     <table>
         <tr>
             <th>Ticket ID</th>
-            <th>Receiving Date</th>
-            <th>Place</th>
-            <th>Issue Description</th>
-            <th>Reported By</th>
-            <th>Maintenance Person</th>
-            <th>Start Date</th>
-            <th>End Date</th>
-            <th>Note from Maintenance</th>
-            <th>Edit</th>
+            <th>Datum přijetí</th>
+            <th>Místo závady</th>
+            <th>Popis závady</th>
+            <th>Nahlásila osoba</th>
+            <th>Zodpovědný údržbář</th>
+            <th>Start</th>
+            <th>Konec</th>
+            <th>Poznámka od údržby</th>
+            <th>Upravit</th>
         </tr>
         <?php
         // Establishing connection to the database
