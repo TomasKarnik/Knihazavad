@@ -11,9 +11,9 @@
     <?php
     // Establishing connection to the database
     $servername = "localhost";
-    $username = "vratnice";
-    $password = "Vratnice.Infotex1";
-    $database = "knihazavad";
+$username = "username";
+$password = "password";
+$database = "db";
     $conn = new mysqli($servername, $username, $password, $database);
     if ($conn->connect_error) {
         die("Connection failed: " . $conn->connect_error);

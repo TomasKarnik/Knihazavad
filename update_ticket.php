@@ -1,9 +1,9 @@
 <?php
 // Establishing connection to the database
 $servername = "localhost";
-$username = "vratnice";
-$password = "Vratnice.Infotex1";
-$database = "knihazavad";
+$username = "username";
+$password = "password";
+$database = "db";
 $conn = new mysqli($servername, $username, $password, $database);
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
@@ -21,13 +21,21 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $is_done = isset($_POST["is_done"]) ? 1 : 0;
     $note_from_maintenance = $_POST["note_from_maintenance"];
 
+    // Convert empty strings to NULL
+    $start_date = !empty($start_date) ? "'$start_date'" : "NULL";
+    $end_date = !empty($end_date) ? "'$end_date'" : "NULL";
+    $note_from_maintenance = !empty($note_from_maintenance) ? "'$note_from_maintenance'" : "NULL";
+
     // Updating data in the Tickets table
-    $sql = "UPDATE Tickets 
-            SET ReceivingDate = '$receiving_date', Place = '$place', IssueDescription = '$issue_description', 
-                MaintenancePerson = '$maintenance_person', StartDate = '$start_date', EndDate = '$end_date', 
-                IsDone = $is_done, NoteFromMaintenance = '$note_from_maintenance' 
+    $sql = "UPDATE Tickets
+            SET ReceivingDate = '$receiving_date', Place = '$place', IssueDescription = '$issue_description',
+                MaintenancePerson = '$maintenance_person', StartDate = $start_date, EndDate = $end_date,
+                IsDone = $is_done, NoteFromMaintenance = $note_from_maintenance
             WHERE TicketID = $id";
-    
+
+    // For debugging: Echo the SQL query
+    echo "SQL query: $sql";
+
     if ($conn->query($sql) === TRUE) {
         echo "Record updated successfully";
     } else {
@@ -41,3 +49,4 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 $conn->close();
 ?>
+

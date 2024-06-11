@@ -32,16 +32,16 @@
     <?php
     // Establishing connection to the database
     $servername = "localhost";
-    $username = "vratnice";
-    $password = "Vratnice.Infotex1";
-    $database = "knihazavad";
+$username = "username";
+$password = "password";
+$database = "db";
     $conn = new mysqli($servername, $username, $password, $database);
     if ($conn->connect_error) {
         die("Connection failed: " . $conn->connect_error);
     }
 
-    // Fetching data from the Tickets table, sorted by ReceivingDate in descending order
-    $sql = "SELECT * FROM Tickets ORDER BY ReceivingDate DESC";
+    // Fetching data from the Tickets table, sorted by TicketID in descending order
+    $sql = "SELECT * FROM Tickets ORDER BY TicketID DESC";
     $result = $conn->query($sql);
 
     if ($result->num_rows > 0) {
