@@ -1,7 +1,7 @@
 # Kniha Závad
 ![screenshot](./img/knihazavad.png)
 ## Description
-The Kniha Závad is a web-based application designed to streamline the process of reporting, tracking, and managing issues within an organization or facility. The system provides a centralized platform where users can report issues, assign them to responsible maintenance personnel, track the status of resolution, and maintain a record of all maintenance activities.
+Kniha Závad is a web-based application designed to streamline the process of reporting, tracking, and managing issues within an organization or facility. The system provides a centralized platform where users can report issues, assign them to responsible maintenance personnel, track the status of resolution, and maintain a record of all maintenance activities.
 Made this as fast solution for bussines instead of fucking exel spredsheet or physical notepad.:)))
 
 ## Key Features
