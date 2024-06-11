@@ -1,10 +1,10 @@
 # Kniha Závad Management System
-This is a simple ticket management system web application. It allows users to submit tickets for maintenance issues, track their status, and manage them efficiently.
-![screenshot](./img/knihazavad.png)
 
 ## Description
 The Kniha Závad Management System is a web-based application designed to streamline the process of reporting, tracking, and managing issues within an organization or facility. The system provides a centralized platform where users can report issues, assign them to responsible maintenance personnel, track the status of resolution, and maintain a record of all maintenance activities.
-Made this as fast solution for bussines instead of fucking exel spredsheet and physical notepad.  :)))
+Made this as fast solution for bussines instead of fucking exel spredsheet or physical notepad.:)))
+
+![screenshot](./img/knihazavad.png)
 
 ## Key Features
 - **Issue Reporting:** Users can easily submit new issues, providing details such as the location, description, and date of occurrence.
