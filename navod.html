@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Návod</title>
     <style>
         body {
@@ -23,10 +24,24 @@
         p {
             font-size: 1.1em;
         }
+        .center {
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
+}
     </style>
 </head>
 <body>
-
+    <nav>
+        <ul>
+            <li><a href="zavady.php">Kniha závad</a></li>
+            <li><a href="add_ticket.html">Nahlaš závadu</a></li>
+            <li><a href="navod.html">Návod</a></li>
+        </ul>
+    </nav>
+    <div class="center">
+    <h1>CZ</h1>
     <h2>Zadání závady:</h2>
     <ol>
         <li>Do internetového prohlížeče zadejde <strong>zavady.skalican.cz</strong></li>
@@ -60,7 +75,8 @@
         <li>Zaškrneme "Hotovo" a klikneme submit</li>
         <li>Ticket zezelená a je považovaný za ukončený</li>
     </ol>
-    
+
+    <h1>EN</h1>
     <h2>Bug Reporting:</h2>
 <ol>
     <li>Enter <strong>zavady.skalican.cz</strong> into your web browser</li>
@@ -94,5 +110,6 @@
     <li>Check "Done" and click submit</li>
     <li>The ticket will turn green and will be considered closed</li>
 </ol>
+</div>
     </body>
 </html>
