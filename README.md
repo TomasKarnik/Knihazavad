@@ -6,6 +6,7 @@ Made this as fast solution for bussines instead of fucking exel spredsheet and p
 - Submit new tickets with details such as place, issue description, and reported by.
 - Track ticket status including receiving date, start date, end date, and notes from maintenance personnel.
 - Edit existing tickets to update information or mark them as resolved.
+- automatically sends an email when a new ticket is created
 
 ## Technologies Used
 - HTML, CSS, and JavaScript for the frontend.
