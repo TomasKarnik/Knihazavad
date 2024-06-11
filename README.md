@@ -8,7 +8,6 @@ The Kniha Závad Management System is a web-based application designed to stream
 - **Assignment and Tracking:** Issues are assigned to maintenance personnel, who can then update the status of the issue as it progresses through the resolution process.
 - **Date Tracking:** The system tracks important dates related to each issue, such as the date of receipt, start date of resolution, and completion date.
 - **Notes and Comments:** Maintenance personnel can add notes and comments to issues, providing additional context or updates on the resolution process.
-- **User Authentication:** Access to the system is controlled through user authentication, ensuring that only authorized users can view or modify issue records.
 - **Responsive Design:** The system features a responsive design, allowing users to access and use the application from desktop computers, tablets, or mobile devices.
 
 ## Technologies Used
