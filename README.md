@@ -11,10 +11,7 @@ Made this as fast solution for bussines instead of fucking exel spredsheet and p
 - **Date Tracking:** The system tracks important dates related to each issue, such as the date of receipt, start date of resolution, and completion date.
 - **Notes and Comments:** Maintenance personnel can add notes and comments to issues, providing additional context or updates on the resolution process.
 - **Responsive Design:** The system features a responsive design, allowing users to access and use the application from desktop computers, tablets, or mobile devices.
-## Features
-- Submit new tickets with details such as place, issue description, and reported by.
-- Track ticket status including receiving date, start date, end date, and notes from maintenance personnel.
-- Edit existing tickets to update information or mark them as resolved.
+- **Email notifications:** Users receive timely email notifications about new tickets that are being created.
 
 ## Technologies Used
 - **Frontend:** HTML, CSS, JavaScript
@@ -31,6 +28,3 @@ Made this as fast solution for bussines instead of fucking exel spredsheet and p
 
 ## Contributing
 Contributions to the project are welcome! If you'd like to contribute, please fork the repository, make your changes, and submit a pull request.
-- HTML, CSS, and JavaScript for the frontend.
-- PHP for server-side scripting.
-- MySQL database for storing ticket information.
