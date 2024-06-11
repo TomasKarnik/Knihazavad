@@ -11,6 +11,7 @@
 <body>
 <nav>
     <ul>
+        <li><a href="index.html">Home</a></li>
         <li><a href="zavady.php">Kniha závad</a></li>
         <li><a href="add_ticket.html">Nahlaš závadu</a></li>
         <li><a href="navod.html">Návod</a></li>
@@ -32,10 +33,10 @@
     </tr>
     <?php
     // Establishing connection to the database
-    $servername = "localhost"; // Use the IP address of your MySQL server
+    $servername = "localhost";
     $username = "----";
-    $password = "----";
-    $database = "-----";
+    $password = "---";
+    $database = "---";
     $conn = new mysqli($servername, $username, $password, $database);
     if ($conn->connect_error) {
         die("Connection failed: " . $conn->connect_error);

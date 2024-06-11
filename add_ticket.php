@@ -12,9 +12,9 @@ require 'vendor/autoload.php';
 
 // Establishing connection to the database
 $servername = "localhost";
-$username = "------";
-$password = "------";
-$database = "------";
+$username = "---";
+$password = "---";
+$database = "---";
 $conn = new mysqli($servername, $username, $password, $database);
 
 if ($conn->connect_error) {
@@ -41,8 +41,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $mail->isSMTP();
             $mail->Host = 'smtp.office365.com';
             $mail->SMTPAuth = true;
-            $mail->Username = 'sender mail';
-            $mail->Password = 'Pass';
+            $mail->Username = '---';
+            $mail->Password = '---';
             $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
             $mail->Port = 587;
 
@@ -51,17 +51,17 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $mail->Debugoutput = 'html'; // Outputs debug information in HTML format
 
             // Recipients
-            $mail->setFrom('mail@domain.cz', 'Ticket System');
-            $mail->addAddress('mail@sdomain.cz', 'Recipient Name');
+            $mail->setFrom('---', 'Ticket System');
+            $mail->addAddress('---', 'Recipient Name');
 
             // Content
             $mail->isHTML(true);
-            $mail->Subject = 'New Ticket Added';
-            $mail->Body = "A new ticket has been added:<br>
-                           <strong>Place:</strong> $place<br>
-                           <strong>Description:</strong> $issue_description<br>
-                           <strong>Reported By:</strong> $reported_by_name<br>
-                           <strong>Receiving Date:</strong> $receiving_date";
+            $mail->Subject = 'Nova zavada';
+            $mail->Body = "Byla nahlesena nova zavada:<br>
+                           <strong>Misto:</strong> $place<br>
+                           <strong>Popis:</strong> $issue_description<br>
+                           <strong>Nahlasil/a:</strong> $reported_by_name<br>
+                           <strong>Dne:</strong> $receiving_date";
 
             $mail->send();
             echo 'Email has been sent';
