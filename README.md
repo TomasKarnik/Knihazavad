@@ -29,3 +29,5 @@ Made this as fast solution for bussines instead of fucking exel spredsheet or ph
 
 ## Contributing
 Contributions to the project are welcome! If you'd like to contribute, please fork the repository, make your changes, and submit a pull request.
+
+![screenshot](./img/2.png)
